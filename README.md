@@ -7,10 +7,10 @@ Implementation – First Prototype
 
 
 Circuit:
-
+![Circuit](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidFinishLinePrototype_fritzing.png)
 
 Schematic:
-
+![Schematic](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidFinishLinePrototype_schematic.png)
 
 First prototype set-up:
 ![First prototype set-up](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img1.jpg)
