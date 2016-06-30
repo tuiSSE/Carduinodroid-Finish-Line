@@ -14,7 +14,7 @@ Schematic:
 
 First prototype set-up:
 ![First prototype set-up](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img1.jpg)
-
+![First prototype set-up](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img2.jpg)
 Screenshot:
 
 ![Serial Monitor](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/Carduinodroid_serialmonitorresult.png)
