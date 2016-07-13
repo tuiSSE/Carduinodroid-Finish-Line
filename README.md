@@ -3,8 +3,7 @@
 Carduinodroid is an RC model car used as an attraction at the TU Ilmenau Open Day event where visitors try to beat a high score for a course. The task is to build a sensitive start/finishing line, measure the time needed using an Arduino, and a display to show the finish time. 
 
 
-Implementation – First Prototype
-
+Implementation 
 
 Circuit:
 ![Circuit](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidFinishLinePrototype_fritzing.png)
@@ -12,10 +11,11 @@ Circuit:
 Schematic:
 ![Schematic](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidFinishLinePrototype_schematic.png)
 
-First prototype set-up:
+Set-up:
 ![First prototype set-up](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img1.jpg)
 ![First prototype set-up 2](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img2.JPG)
-Screenshot:
+
+LCD Display:
 
 ![LCD Display-2](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/racestarted.JPG)
 
