@@ -19,9 +19,8 @@ LCD Display:
 
 ![LCD Display-2](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/racestarted.JPG)
 
-![LCD Display-2](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/racefinish1.JPG)
+![LCD Display-2](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/racefinish.JPG)
 
-![LCD Display-3](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/racefinish2.JPG)
 
 The “CarduinodroidFinishLine_sketch” continually reads the button's state from pin 2. When one of the buttons is pressed for the first time, i.e., buttonState is HIGH then the timer is started. When the car moves over the finish line for the second time,ie buttons are pressed for a second time the state change is detected and timer is stopped.The elapsed time is then displayed on a LCD display.A 1KHz sound signal using a piezzo buzzer is used to signal the finish of the race.
 A change in state is ignored for a time interval of 10 seconds in order to avoid the issue of timer being stoped when the back tyres of RC car passes over the line.
