@@ -19,7 +19,7 @@ Schematic:
 
 Set-up:
 ![First prototype set-up](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img1.jpg)
-![First prototype set-up 2](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img2.JPG)
+![Finish Line](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/finishline.jpg)
 
 LCD Display:
 
