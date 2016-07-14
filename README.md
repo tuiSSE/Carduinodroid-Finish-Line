@@ -12,10 +12,10 @@ Piezzo Buzzer
 Implementation: 
 
 Circuit:
-![Circuit](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidFinishLinePrototype_fritzing.png)
+![Circuit](https://github.com/phba1682/Carduinodroid-Finish-Line/blob/master/breadboard.PNG)
 
 Schematic:
-![Schematic](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidFinishLinePrototype_schematic.png)
+![Schematic](https://github.com/phba1682/Carduinodroid-Finish-Line/blob/master/schematic.PNG)
 
 Set-up:
 ![First prototype set-up](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img1.jpg)
