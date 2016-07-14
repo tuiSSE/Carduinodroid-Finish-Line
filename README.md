@@ -15,7 +15,7 @@ Circuit:
 ![Circuit](https://github.com/phba1682/Carduinodroid-Finish-Line/blob/master/breadboard.PNG)
 
 Schematic:
-![Schematic](https://github.com/phba1682/Carduinodroid-Finish-Line/blob/master/schematic.PNG)
+![Schematic](https://github.com/phba1682/Carduinodroid-Finish-Line/blob/master/schematic1.PNG)
 
 Set-up:
 ![First prototype set-up](https://github.com/bthara/Carduinodroid-Finish-Line/blob/master/CarduinodroidPrototype_img1.jpg)
