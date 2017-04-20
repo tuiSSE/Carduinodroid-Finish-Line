@@ -25,9 +25,10 @@ int buttonState;            // variable to store button state
 int lastButtonState;        // variable to store last button state
 long interval = 100;        // blink interval - change to suit
 long previousMillis = 0;    // variable to store last time LED was updated
-long startTime ;            // start time for stop watch
-long elapsedTime ;          // elapsed time for stop watch
+long startTime;             // start time for stop watch
+long elapsedTime;           // elapsed time for stop watch
 int fractional;             // variable used to store fractional part of time
+long highscore = -1;
 
 // 0 - standby
 // 1 - running
@@ -105,6 +106,11 @@ void loop() {
         Serial.println(buf);
         lcd.drawText(35, 175, buf , RGB(0, 0, 0), RGB(0, 255, 0), 2);
 
+        if (highscore == -1 || elapsedTime < highscore) {
+          lcd.drawText(50, 130, "New Highscore!", RGB(0, 0, 0), RGB(255, 100, 100), 2);
+          highscore = elapsedTime;
+        }
+
         delay(1000);
       }
     }
@@ -113,6 +119,11 @@ void loop() {
       lcd.drawText(60, 100, "carduinodroid", RGB(0, 0, 0), RGB(200, 200, 0), 2);
       lcd.drawText(20, 200, "Pass finish line to start", RGB(0, 0, 0), RGB(200, 200, 0), 1);
       state = 0;
+      if (highscore > 0) {
+        fractional = (int)(highscore % 1000L);
+        sprintf(buf, "Highscore: %02i.%01i",  (int)(highscore / 1000L), fractional);
+        lcd.drawText(20, 160, buf , RGB(0, 0, 0), RGB(200, 200, 0), 2);
+      }
     }
   }
 
@@ -133,7 +144,7 @@ void loop() {
       else
         value = LOW;
       digitalWrite(ledPin, value);
-      elapsedTime =   millis() - startTime;
+      elapsedTime = millis() - startTime;
       fractional = (int)(elapsedTime % 1000L);
       sprintf(buf, "Seconds: %02i.%01i",  (int)(elapsedTime / 1000L), fractional);
       lcd.drawText(35, 175, buf , RGB(0, 0, 0), RGB(200, 200, 0), 2);
